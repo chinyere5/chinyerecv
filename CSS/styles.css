@@ -1,0 +1,267 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(85, 66, 66);
+    height: 150vh;
+  }
+  .clearfix {
+    clear: both;
+  }  
+  
+  .resume-box {
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    background-color: darkgray;
+  }
+  .box.outer {
+    padding: 30px;
+  }
+  .box-1 {
+    background-color: rgb(72, 71, 73);
+    width: 35%;
+    float: left;
+    height: 1000px;
+  }
+  .box-2 {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    padding: 20px;
+  }
+  .profile{
+   width: 200px;
+   position: center;
+   border-radius: 50px;
+   padding: 30px;
+
+  }
+  .profile-text{
+    position: relative;
+    display: inline-flex;
+    /* padding-bottom: 100px; */
+    padding-bottom: 20px;
+    padding-top: 0px;
+    border-bottom: 1px solid;
+    padding-bottom: 12px;
+    padding-left: 30px;
+  }
+  .profile-text h2 {
+    color: rgb(247, 234, 234);
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-left: 30px;
+  }
+  .profile-text h2 span {
+    font-size: 0.8em;
+    font-weight: 30;
+  }
+  .content{
+    padding: 2px;
+  }
+  h1{
+    color: whitesmoke;
+    font-family: system ui;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  p{
+    color: black;
+    font-family: system ui;
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  h2{
+    color: #ceced1;
+    font-family: system ui;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  #Progress{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 50%;
+    padding: 1px;
+  }
+  #Progress1{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress1:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 50%;
+    padding: 1px;
+  }
+  #Progress2{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress2:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 80%;
+    padding: 1px;
+  }
+  #Progress3{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress3:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 50%;
+    padding: 1px;
+  }
+  #Progress4{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress4:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 20%;
+    padding: 1px;
+  }
+  #Progress5{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress5:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 20%;
+    padding: 1px;
+  }
+  #Progress6{
+    background-color: #333;
+    border-radius: 10px;
+    height: 6px;
+    width: 90%;
+    padding: 1px;
+  }
+  #Progress6:after{
+    content:'';
+    display: block;
+    background-color: orangered;
+    border-radius: 9px;
+    height: 6px;
+    width: 10%;
+    padding: 1px;
+  }
+  .Contactinfo{
+    padding: 5px;
+    display: block;
+    color: white
+  }
+.Contactinfo ul{
+  padding-top: 0rem;
+}
+
+.Contactinfo ul li{
+  padding: 0px;
+  display: flex;
+  align-items: right;
+  color: white;
+}
+.contact-info ul li i {
+  padding-right: 1rem;
+  font-size: 34px;
+  color: #f7f7f7;}
+
+  .about{
+margin-bottom: 50px;
+  }
+  .title2{
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .objective{
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+  .para{
+   color: black;
+   /* letter-spacing:1px; */
+}
+.listing{
+  list-style: none;
+  padding: 1px;
+  line-height: 5px;
+  font-weight: 300;
+}
+.title3{
+  padding-bottom: 0px;
+  letter-spacing: 1px;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 1px;
+  color:brown;
+  padding-left: 12px;
+}
+.box1{
+  display: flex;
+  flex-direction: row;
+  color:brown;
+  letter-spacing: 1px;
+  padding-left: 12px;
+}
+.text{
+  padding-left: 10px;
+  color:brown;
+}
+.text1{
+  padding-left: 10px;
+  color: brown ;
+}
